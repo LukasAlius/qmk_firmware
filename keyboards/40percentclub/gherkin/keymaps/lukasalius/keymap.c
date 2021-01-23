@@ -32,7 +32,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [2] = LAYOUT_ortho_3x10(
     KC_EXLM, KC_AMPR, KC_ASTR, KC_PIPE, XXXXXXX, KC_EXLM, KC_COLN, KC_LPRN, KC_RPRN, KC_SCLN,
     KC_DEL,  KC_DLR,  KC_PERC, KC_CIRC, XXXXXXX, KC_MINS, KC_EQL,  KC_LBRC, KC_RBRC, KC_GRV,
-    KC_LSFT, KC_EXLM, KC_AT,   KC_HASH, XXXXXXX, KC_TILD, KC_PIPE, _______, _______, KC_BSLS,
+    KC_LSFT, KC_EXLM, KC_AT,   KC_HASH, KC_BSLS, KC_TILD, KC_PIPE, _______, _______, KC_SLSH,
                                         _______, _______
   ),
 
