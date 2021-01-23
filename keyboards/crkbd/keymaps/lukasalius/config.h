@@ -34,6 +34,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define USE_SERIAL_PD2
 
+// start of memory optimisations
+#define NO_ACTION_MACRO
+#define NO_ACTION_FUNCTION
+// end of memory optimisations
+
 // #define TAPPING_FORCE_HOLD
 #define TAPPING_TERM 150
 #define RETRO_TAPPING
