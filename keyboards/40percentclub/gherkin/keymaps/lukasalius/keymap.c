@@ -2,6 +2,7 @@
 
 #define CTL_Z       CTL_T(KC_Z)
 #define ALT_X       ALT_T(KC_X)
+#define SFT_A       SFT_T(KC_A)
 #define ALT_COMM    ALGR_T(KC_COMM)
 #define CTL_DOT     RCTL_T(KC_DOT)
 #define SFT_TAB     RSFT_T(KC_TAB)
@@ -15,9 +16,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // Colemak DH-mod
   [0] = LAYOUT_ortho_3x10(
     KC_Q,    KC_W,    KC_F,    KC_P,    KC_B,    KC_J,    KC_L,    KC_U,       KC_Y,      KC_BSPC,
-    KC_A,    KC_R,    KC_S,    LT_T,    KC_G,    KC_K,    KC_N,    KC_E,       KC_I,      KC_O,
-    CTL_Z,   ALT_X,   KC_C,    KC_D,    KC_V,    KC_M,    KC_H,   ALT_COMM,   CTL_DOT,   SFT_TAB,
-                                        LT_SPC_L, LT_SPC_R
+    SFT_A,   KC_R,    KC_S,    LT_T,    KC_G,    KC_M,    KC_N,    KC_E,       KC_I,      KC_O,
+    CTL_Z,   ALT_X,   KC_C,    KC_D,    KC_V,    KC_K,    KC_H,   ALT_COMM,   CTL_DOT,   SFT_TAB,
+                                      LT_SPC_L, LT_SPC_R
   ),
 
   // Numbers layer
